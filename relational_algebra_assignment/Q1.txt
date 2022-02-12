@@ -1,0 +1,4 @@
+﻿π Make.make_name, Vehicle.vehicle_id, Model.model_name (
+σ Model.first_production_year = '1986' (
+(Vehicle ⨝ Vehicle.fk_make_id = Make.make_id Make)
+ ⨝ Vehicle.fk_model_id = Model.model_id Model))

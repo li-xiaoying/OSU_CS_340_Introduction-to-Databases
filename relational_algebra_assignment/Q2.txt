@@ -1,0 +1,1 @@
+π Make.make_name, Vehicle.vehicle_id, Inventory.inventory_id, Model.model_name (σ Color.name = 'Bold Red' ((((Vehicle ⨝ Vehicle.fk_make_id = Make.make_id Make) ⨝ Vehicle.fk_model_id = Model.model_id Model) ⨝ Vehicle.vehicle_id = Inventory.fk_vehicle_id Inventory) ⨝ Inventory.fk_color_id = Color.color_id Color))

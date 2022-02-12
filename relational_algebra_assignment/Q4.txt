@@ -1,0 +1,1 @@
+π Player.id, Team.name, City.name (σ Player.score = 100 or City.name = 'London' ((Player ⨝ Player.team_id = Team.id Team) ⨝ Team.city_id = City.id City))
